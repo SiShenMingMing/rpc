@@ -11,7 +11,14 @@ public class Student {
     public Student(){
 
     }
+    public Student(String username,String age,String hobby,String key,String value){
+        this.key = key;
+        this.age = age;
+        this.username = username;
+        this.value = value;
+        this.hobby = hobby;
 
+    }
 
     public void setHobby(String hobby) {
         this.hobby = hobby;
