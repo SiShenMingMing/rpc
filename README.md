@@ -8,3 +8,10 @@ http://192.168.230.129:30929/add?username=shiming&age=22&hobby=test&key=a&value=
 
 验证服务可用性,访问rpc-client：
 http://192.168.230.129:30929/test
+
+
+## 流程
+rpc-server先启动
+然后启动rpc-client
+
+访问rpc-client，可以看到rpc-server将rpc-client中的信息获取之后又返回给了rpc-client
